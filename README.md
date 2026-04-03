@@ -91,7 +91,7 @@ helm uninstall k8s-lab
 - [x] FastAPI app + Dockerize
 - [x] Kubernetes manifests
 - [x] Helm chart
-- [ ] ArgoCD GitOps
+- [x] ArgoCD GitOps
 - [ ] Prometheus + Grafana monitoring
 
 ## 📜 License
