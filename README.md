@@ -92,7 +92,7 @@ helm uninstall k8s-lab
 - [x] Kubernetes manifests
 - [x] Helm chart
 - [x] ArgoCD GitOps
-- [ ] Prometheus + Grafana monitoring
+- [x] Prometheus + Grafana monitoring
 
 ## 📜 License
 
