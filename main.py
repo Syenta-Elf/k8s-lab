@@ -2,9 +2,9 @@ from fastapi import FastAPI
 import socket
 from prometheus_fastapi_instrumentator import Instrumentator
 
-Instrumentator().instrument(app).expose(app)
-app = FastAPI()
 
+app = FastAPI()
+Instrumentator().instrument(app).expose(app)
 @app.get("/")
 def root():
     return {"message": "Hello from k8s-lab!"}
