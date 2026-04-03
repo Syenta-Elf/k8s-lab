@@ -1,5 +1,8 @@
 from fastapi import FastAPI
 import socket
+from prometheus_fastapi_instrumentator import Instrumentator
+
+Instrumentator().instrument(app).expose(app)
 app = FastAPI()
 
 @app.get("/")
